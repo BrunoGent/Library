@@ -21,7 +21,7 @@ public class Book {
     public void setQty(int qty){this.qty = qty;}
 
     public String toString(){
-        return ("Book name: " + name +  bookAuthor + "Price " + price + ", quantities available " + qty);
+        return ("Book name: " + name +  bookAuthor + "Price: £" + price + ", quantities available: " + qty);
     }
 
 }
